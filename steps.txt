@@ -1,0 +1,23 @@
+1.vue cli
+
+-library project creation (lib)
+-component creation CurrentDate.vue
+
+-client project creation (client)
+-how to (re)use CurrentDate in client?
+
+2.library generation with vue cli 
+-Read the docs! https://cli.vuejs.org/guide/build-targets.html#library
+-Set package.json:
+    -build script for lib
+    -main entry script of package
+-on lib: npm link
+    -ls -la /home/mhexsel/.npm/lib/node_modules/lib (no magic here, only symlinks!)
+
+3.library usage (local)
+-on client: 
+    -npm link lib
+    -symlinks everywhere!
+    -import css
+    -import components where you wanna use
+
