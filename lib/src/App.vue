@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <current-date />
+    <current-date-moment />
   </div>
 </template>
 
 <script>
 import CurrentDate from "./components/CurrentDate.vue";
+import CurrentDateMoment from "./components/CurrentDateMoment.vue";
 
 export default {
   name: "app",
   components: {
-    CurrentDate
+    CurrentDate,
+    CurrentDateMoment
   }
 };
 </script>

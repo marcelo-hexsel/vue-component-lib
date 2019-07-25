@@ -21,3 +21,6 @@
     -import css
     -import components where you wanna use
 
+3.library with external libs
+-on lib: configure webpack to consider externals
+-on client: always ensure dependencies are ok for components you use! (via npm dependencies, README)

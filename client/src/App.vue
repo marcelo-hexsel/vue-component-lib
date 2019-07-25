@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <current-date />
+    <current-date-moment />
   </div>
 </template>
 
@@ -10,7 +11,8 @@ import lib from "lib";
 export default {
   name: "app",
   components: {
-    CurrentDate: lib.CurrentDate
+    CurrentDate: lib.CurrentDate,
+    CurrentDateMoment: lib.CurrentDateMoment
   }
 };
 </script>
